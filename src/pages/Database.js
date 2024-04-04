@@ -4,18 +4,18 @@ import "../styles/Database.css";
 
 function Database() {
   const [name, setName] = useState("");
-  const [age, setAge] = useState<number | string>(0); // Updated to accept string temporarily
+  const [age, setAge] = useState(0); // Removed type assertion
   const [country, setCountry] = useState("");
   const [position, setPosition] = useState("");
-  const [wage, setWage] = useState<number | string>(0); // Updated to accept string temporarily
+  const [wage, setWage] = useState(0); // Removed type assertion
 
   const addEmployee = () => {
     Axios.post("http://localhost:5173/create", {
       name: name,
-      age: parseInt(age as string), // Parse age to number
+      age: parseInt(age), // Parse age to number
       country: country,
       position: position,
-      wage: parseInt(wage as string), // Parse wage to number
+      wage: parseInt(wage), // Parse wage to number
     }).then(() => {
       console.log("success");
     });

@@ -5,7 +5,7 @@ import "../styles/ProjectDisplay.css"
 
 function ProjectDisplay() {
   const { id } = useParams();
-  const projectId: number = id ? parseInt(id, 10) : -1; // Convert id to a number
+  const projectId = id ? parseInt(id, 10) : -1; // Convert id to a number
 
   const project = ProjectList[projectId];
 
@@ -25,6 +25,4 @@ function ProjectDisplay() {
   );
 }
 
-
-
-export default ProjectDisplay
+export default ProjectDisplay;

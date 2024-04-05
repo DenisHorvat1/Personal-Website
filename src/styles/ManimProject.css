@@ -9,7 +9,7 @@
   }
 
   .project .description{    
-    width: 100%;
+    width: 80%;
     height: calc(100vh - 100%);
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@
   .project .description h2{
     margin-top:60px;
     font-size: 25px;
-    width: 80%;
+    width: 90%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -43,6 +43,7 @@
   .project h2{
     margin-top:50px;
     font-size: 25px;
+    width: 80%;
     color: #3e497a;
     width: auto;
     align-items: center;

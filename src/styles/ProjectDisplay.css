@@ -7,6 +7,15 @@
     flex-direction: column;
 
   }
+  .project h2{
+    margin-top:60px;
+    font-size: 15px;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   .NotFound {
     font-size: 30px;
     text-align: center;
@@ -14,21 +23,13 @@
     height: auto;
   }
   
-  
   .project h1 {
     margin-top: 50px;
     color: #3e497a;
     font-size: 35px;
   }
 
-  .project h2{
-    margin-top:60px;
-    font-size: 25px;
-    width: 80%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
+ 
   .project img {
     width: auto;
     height: 400px;

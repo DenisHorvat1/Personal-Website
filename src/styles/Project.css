@@ -10,13 +10,21 @@
   text-align: center;
   font-size: 60px;
   font-weight: bolder;
+  color: #3e497a;
+}
+
+.projects h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #3e497a;
 }
 
 .projectList {
   width: calc(100vw - 15px);
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   place-items: center;
 }
 
@@ -51,6 +59,7 @@
 
 .projectItem h1 {
   font-size: 25px;
+  color: #3e497a;
 }
 
 @media only screen and (max-width: 1300px) {

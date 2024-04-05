@@ -15,33 +15,44 @@ function Experience() {
       <VerticalTimeline lineColor='#3e497a'>
         <VerticalTimelineElement 
           className='vertical-timeline-element--education' 
-          date='2010 - 2014'
+          date='2020 - 2023'
           iconStyle={{background: "#3e497a", color:"#fff"}}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Liceul , loc, 
+            "Alexandru Ioan Cuza" University of Iaşi 
           </h3>
           <p>
-            Liceul Diploma
+            Bachelor Degree in Mathematics and Computer Sciences
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className='vertical-timeline-element--education' 
-          date='2010 - 2014'
+          date='2023'
           iconStyle={{background: "#3e497a", color:"#fff"}}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Liceul , loc, 
+            Continental, Iasi
           </h3>
           <p>
-            Liceul Diploma
+            Internship, Image Processing and Computer Vision.
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement>
-
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--education' 
+          date='2023 - 2025'
+          iconStyle={{background: "#3e497a", color:"#fff"}}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Tehnical University of Cluj-Napoca
+          </h3>
+          <p>
+            Master's Degree in Software Engineering.
+          </p>
         </VerticalTimelineElement>
+
       </VerticalTimeline>
     </div>
   );

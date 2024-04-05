@@ -10,17 +10,23 @@ function ProjectDisplay() {
   const project = ProjectList[projectId];
 
   if (!project) {
-      return <div>Project not found</div>;
+      return <div className="NotFound">Project not found</div>;
   }
 
   return (
       <div className='project'>
           <h1>{project.name}</h1>
           <img src={project.image} alt={project.name} />
+          <h2>
+            {project.details}
+          </h2>
           <p>
               <b>Skills :</b> {project.skills}
           </p>
-          <GitHubIcon />
+          <div className="socialMedia">
+            <GitHubIcon onClick={() => window.open(project.link, '_blank')} />
+          </div>
+          
       </div>
   );
 }

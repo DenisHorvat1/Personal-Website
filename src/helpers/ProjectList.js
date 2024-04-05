@@ -64,9 +64,6 @@ export const ProjectList = [
         details: "A Java application that draws a conic section based on a given equation. It also specifies the type of the conic section, its center, and other details.",
         link: "https://github.com/DenisHorvat1/Draw-a-conic-section-Java"
     },
-    {
-        name : "Work in progress for a ML",
-        skills : "MySQL"
-    },
+
 
 ]

@@ -23,13 +23,11 @@ function Database() {
 
   return (
     <div className="information">
-      <label>Name:</label>
-      <input
-        type="text"
-        onChange={(event) => {
-          setName(event.target.value);
-        }}
-      />
+      <label>Gender:</label>
+      <select>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
       <label>Age:</label>
       <input
         type="number"
@@ -44,20 +42,15 @@ function Database() {
           setCountry(event.target.value);
         }}
       />
-      <label>Position:</label>
-      <input
-        type="text"
-        onChange={(event) => {
-          setPosition(event.target.value);
-        }}
-      />
-      <label>Wage:</label>
-      <input
-        type="number"
-        onChange={(event) => {
-          setWage(event.target.value);
-        }}
-      />
+      <label for="activity">Activity Level:</label>
+      <select id="activity" name="activity">
+        <option value="sedentary">Sedentary (little or no exercise)</option>
+        <option value="lightly_active">Lightly active (light exercise/sports 1-3 days a week)</option>
+        <option value="moderately_active">Moderately active (moderate exercise/sports 3-5 days a week)</option>
+        <option value="very_active">Very active (hard exercise/sports 6-7 days a week)</option>
+        <option value="extra_active">Extra active (very hard exercise/sports & physical job)</option>
+      </select>
+
       <button onClick={addEmployee}>Add Employee</button> {/* Added text inside button */}
     </div>
   );

@@ -6,8 +6,16 @@ import Proj5 from "../assets/Proj5.png";
 import Proj6 from "../assets/Proj6.png";
 import Proj7 from "../assets/Proj7.png";
 import Proj8 from "../assets/Proj8.png";
+import Proj9 from "../assets/Proj9.png";
 
 export const ProjectList = [
+    {
+        name: "Library Management system C#",
+        image: Proj9,
+        skills: "C#, .Net",
+        details: "Library Manager app is built with ASP.NET Core and Entity Framework Core. It allows you to manage a library where you can rent books to users or return them. It utilizes dependency injection, asynchronous programming and upholds SOLID principles for flexibility and responsiveness.",
+        link: "https://github.com/DenisHorvat1/Library-Management-System"
+    },
     {
         name: "Image Processing app",
         image: Proj3,
@@ -63,7 +71,7 @@ export const ProjectList = [
         skills : "Java",
         details: "A Java application that draws a conic section based on a given equation. It also specifies the type of the conic section, its center, and other details.",
         link: "https://github.com/DenisHorvat1/Draw-a-conic-section-Java"
-    },
+    }
 
 
 ]
